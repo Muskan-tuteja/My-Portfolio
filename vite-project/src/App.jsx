@@ -7,17 +7,14 @@ function App() {
       <Navbar />
             <Hero />
 
-      <section id="home" className="h-screen flex items-center justify-center">
-        <h1 className="text-6xl font-bold text-white">
-          Welcome
-        </h1>
+      <section
+        id="about"
+        className="h-screen flex items-center justify-center text-white text-5xl"
+      >
+        About Section
       </section>
 
-      <section id="about" className="h-screen"></section>
-      <section id="skills" className="h-screen"></section>
-      <section id="projects" className="h-screen"></section>
-      <section id="experience" className="h-screen"></section>
-      <section id="contact" className="h-screen"></section>
+    
     </div>
   );
 }

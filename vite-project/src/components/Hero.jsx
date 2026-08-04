@@ -71,11 +71,11 @@ const Hero = () => {
           </div>
 
           <div className="flex gap-5 text-3xl mt-10">
-            <a href="https://github.com/yourgithub">
+            <a href="https://github.com/Muskan-tuteja">
               <FaGithub className="hover:text-cyan-400 transition" />
             </a>
 
-            <a href="https://linkedin.com/in/yourlinkedin">
+            <a href="https://www.linkedin.com/in/muskan-tuteja-90b1b2322">
               <FaLinkedin className="hover:text-cyan-400 transition" />
             </a>
           </div>
@@ -107,7 +107,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll Down */}
-      <div className="absolute bottom-10">
+      {/* <div className="absolute bottom-10">
         <a href="#about">
           <div className="w-8 h-14 border-2 border-cyan-400 rounded-full flex justify-center">
             <motion.div
@@ -120,7 +120,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

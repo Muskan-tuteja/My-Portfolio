@@ -2,6 +2,7 @@ import AnimatedBackground from "./components/AnimatedBackground";
 import CustomCursor from "./components/CustomCursor";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   return (
@@ -10,13 +11,8 @@ function App() {
       <CustomCursor />
       <Navbar />
       <Hero />
+        <About />
 
-      <section
-        id="about"
-        className="h-screen flex items-center justify-center text-white text-5xl"
-      >
-        About Section
-      </section>
     </div>
   );
 }

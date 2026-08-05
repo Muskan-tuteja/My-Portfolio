@@ -5,7 +5,7 @@ export const experience = [
     company: "Accadmix",
     description:
       "Developed responsive React components, improved UI/UX, integrated APIs and collaborated with the development team.",
-    tech: ["React", "Tailwind", "JavaScript", "Git"],
+    tech: ["Node.js", "Next.js", "UI/UX","Figma"],
   },
 
   {
@@ -14,7 +14,7 @@ export const experience = [
     company: "Hexadecimal Software Pvt. Ltd.",
     description:
       "Worked on backend operations, database management and technical support while improving workflow efficiency.",
-    tech: ["Node.js", "MongoDB", "SQL"],
+    tech: ["React", "Tailwind", "JavaScript", "Git"],
   },
 
 {

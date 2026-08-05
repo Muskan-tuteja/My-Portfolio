@@ -2,6 +2,12 @@
 
 A modern and responsive personal portfolio built using **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. It showcases my skills, projects, experience, and provides an easy way to connect with me.
 
+## 📸 Portfolio Preview
+
+![Portfolio Preview](./vite-project/src/preview.png)
+
+---
+
 ## 🌐 Live Demo
 
 👉 https://my-portfolio-muskan-30c0.vercel.app/
@@ -83,11 +89,6 @@ npm run build
 
 ---
 
-## 📸 Portfolio Preview
-
-![Portfolio Preview](./vite-project/src/preview.png)
-
----
 
 ## 👩‍💻 About Me
 

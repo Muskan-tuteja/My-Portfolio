@@ -86,16 +86,12 @@ export default function About() {
             viewport={{ once: true }}
           >
             <h3 className="text-3xl font-bold mb-6">
-              Frontend Developer & Graphic Designer
-            </h3>
+    Frontend  & MERN Stack Developer
+</h3>
 
-            <p className="text-gray-300 leading-8 text-lg">
-              I'm <span className="text-cyan-400 font-semibold">Muskan Tuteja</span>, a passionate
-              Frontend Developer who enjoys building fast, responsive and
-              user-friendly websites using React and Tailwind CSS. I also create
-              modern UI designs and enjoy working with AI-powered tools to
-              improve digital experiences.
-            </p>
+<p className="text-gray-300 leading-8 text-lg">
+  I'm <span className="text-cyan-400 font-semibold">Muskan Tuteja</span>, a passionate Frontend Developer with hands-on experience in building responsive and interactive web applications using React, JavaScript, Tailwind CSS, Node.js, Express.js, and MongoDB. I enjoy developing full-stack projects, exploring AI-powered solutions, and writing clean, maintainable code to deliver seamless user experiences.
+</p>
 
             <div className="grid sm:grid-cols-2 gap-6 mt-10">
               {cards.map((card, index) => (

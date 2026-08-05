@@ -1,8 +1,6 @@
 import seo from "../assets/projects/seoboost.png";
-// import youtube from "../assets/projects/youtube.png";
-// import netflix from "../assets/projects/netflix.png";
-// import amazon from "../assets/projects/amazon.png";
-// import stayhub from "../assets/projects/stayhub.png";
+import ticket from "../assets/projects/ticket-booking.png";
+import threads from "../assets/projects/threads-of-love.png";
 
 export const projects = [
   {
@@ -21,44 +19,37 @@ export const projects = [
   github: "https://github.com/Muskan-tuteja/SEO-Boost-AI",
   demo: "https://seo-boost-ai-black.vercel.app",
 },
+{
+  title: "Ticket Booking App",
+  image: ticket,
+  description:
+    "A responsive ticket booking web application that allows users to browse events, select tickets, and complete the booking process through a clean and user-friendly interface.",
+  tech: [
+    "React",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Responsive Design",
+  ],
+  github: "https://github.com/Muskan-tuteja/ticket-booking-app",
+  demo: "https://muskan-tuteja.github.io/ticket-booking-app/",
+},
+{
+  title: "Threads of Love",
+  image: threads,
+  description:
+    "A responsive fashion and clothing e-commerce website featuring modern UI, product collections, category browsing, and a seamless shopping experience.",
+  tech: [
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Responsive Design",
+  ],
+  github: "https://github.com/Muskan-tuteja/Threads-of-love",
+  demo: "https://muskan-tuteja.github.io/Threads-of-love/",
+},
 
-//   {
-//     title: "YouTube Clone",
-//     image: youtube,
-//     description:
-//       "Responsive YouTube clone using React and YouTube API.",
-//     tech: ["React", "CSS", "API"],
-//     github: "https://github.com/yourusername/youtube-clone",
-//     demo: "#",
-//   },
 
-//   {
-//     title: "Netflix Clone",
-//     image: netflix,
-//     description:
-//       "Netflix UI with movie browsing experience.",
-//     tech: ["React", "Firebase"],
-//     github: "#",
-//     demo: "#",
-//   },
 
-//   {
-//     title: "Amazon Clone",
-//     image: amazon,
-//     description:
-//       "Modern ecommerce UI inspired by Amazon.",
-//     tech: ["React", "Context API"],
-//     github: "#",
-//     demo: "#",
-//   },
-
-//   {
-//     title: "StayHub",
-//     image: stayhub,
-//     description:
-//       "Hotel booking interface with responsive design.",
-//     tech: ["React", "Tailwind"],
-//     github: "#",
-//     demo: "#",
-//   },
 ];

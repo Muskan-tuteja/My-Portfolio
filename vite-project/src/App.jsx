@@ -6,6 +6,11 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import ScrollProgress from "./components/ScrollProgress";
+// import Loader from "./components/Loader";
+
 
 function App() {
   return (
@@ -18,6 +23,10 @@ function App() {
          <Skills />
            <Experience />
            <Projects />
+            <Contact />
+            <Footer/>
+            <ScrollProgress/>
+            
 
     </div>
   );
